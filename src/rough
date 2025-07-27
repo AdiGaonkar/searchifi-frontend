@@ -1,0 +1,4 @@
+PORT=5000
+MONGO_URI=mongodb+srv://thesearchifi:dKvX774tb1FzVoWj@cluster0.rjir4md.mongodb.net/
+JWT_SECRET=thesearchifi23
+OPENAI_API_KEY=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

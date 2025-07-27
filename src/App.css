@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.3));
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.3));
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ccc; /* Neutral text color */
+}
+
+/* Theme gradient without orange */
+.black-orange-gradient {
+  background: linear-gradient(90deg, #0D0D0D 0%, #1A1A1A 100%);
+}
+
+/* Accent glow removed */
+.accent-glow {
+  box-shadow: none;
+}
+
+/* Accent border removed */
+.accent-border {
+  border: none;
+}
+
+/* Glassmorphism panel without orange border */
+.glass-panel {
+  background: rgba(13, 13, 13, 0.9);
+  backdrop-filter: blur(12px);
+  border: none;
+  box-shadow: 0 4px 24px rgba(255, 255, 255, 0.05);
+}
+
+/* Neutral button style */
+.neo-button {
+  background: #2e2e2e;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.neo-button:hover {
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Card hover effect */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+}
